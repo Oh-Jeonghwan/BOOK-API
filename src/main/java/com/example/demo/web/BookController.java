@@ -16,7 +16,7 @@ import com.example.demo.service.BookService;
 
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin
+@CrossOrigin("*")
 @RequiredArgsConstructor
 @RestController
 public class BookController {
